@@ -1,1 +1,7 @@
 # CLA-Data-science
+#home-work1
+evens = [x for x in range(299) if x%2 == 0]
+print(len(evens))
+evens_squared = [i**2 for i in evens]
+print(evens_squared)
+print(57 in evens)
